@@ -1,8 +1,7 @@
 {
   "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/tlareg/tns-random-quote.git",
   "nativescript": {
     "id": "org.nativescript.tnsrandomquote",
     "tns-android": {
