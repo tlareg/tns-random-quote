@@ -1,0 +1,13 @@
+<DockLayout stretchLastChild="true" class="p-20">
+    <Label dock="top" 
+        text="Random Quote" 
+        class="h1 text-center text-muted"></Label>
+    <Button dock="bottom"
+        text="NEXT" 
+        (tap)="onNext()" 
+        class="btn btn-primary btn-active"></Button>
+    <Label [text]="currentQuote" 
+        class="h2 text-center text-primary"
+        style="margin-top: 150" 
+        textWrap="true"></Label>
+</DockLayout>
